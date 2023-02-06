@@ -1,10 +1,11 @@
 'use client';
+import Header from "@/components/Modules/Header/page";
 import ChakraWrapper from "./chakra-wrapper";
 
 export default function Home() {
   return (
     <ChakraWrapper>
-      <h1>Hello World</h1>
+      <Header ></Header>
     </ChakraWrapper>
   );
 }
