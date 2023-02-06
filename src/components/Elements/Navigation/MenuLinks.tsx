@@ -15,15 +15,16 @@ export default function MenuLinks({ isOpen }: { isOpen: boolean }) {
   return (
     <Stack
       align="flex-start"
+      ml="3"
       justify={["flex-start"]}
       direction={["column", "row"]}>
 
-      <Logo w="100px" />
+      <Logo w={["100%", "80px", "180px"]} />
       <Box
         display={{ base: isOpen ? "block" : "none", md: "block" }}
         flexBasis={{ base: "100%", md: "auto" }}>
         <Stack
-          spacing={{ base: 4, md: 10 }}
+          spacing={[6, -4, 4, 1]}
           align="center"
           justify={["center", "space-around", "flex-end", "flex-end"]}
           direction={["column", "row", "row", "row"]}
