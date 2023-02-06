@@ -4,11 +4,11 @@ export default function NavBarContainer({ children, ...extraStyles }: { children
   return (
     <Flex
       as="nav"
-      align="center"
       justify="space-between"
       wrap="wrap"
       w="100%"
       p={3}
+      pt={4}
       bg={useColorModeValue('gray.50', 'gray.900')}
       {...extraStyles}>
 

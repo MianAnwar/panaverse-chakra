@@ -1,5 +1,4 @@
 import React from "react";
-import Logo from '@/components/Elements/Navigation/Logo';
 import MenuLinks from "@/components/Elements/Navigation/MenuLinks";
 import MenuToggle from "@/components/Elements/Navigation/MenuToggle";
 import NavBarContainer from "@/components/Elements/Navigation/NavBarContainer";

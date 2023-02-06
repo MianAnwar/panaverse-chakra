@@ -4,7 +4,7 @@ import Logo from '@/components/Elements/Navigation/Logo';
 function MenuItem({ children, to = "/", ...rest }: { children: React.ReactNode, to: string }) {
   return (
     <Link href={to}>
-      <Text display="block" {...rest} color={useColorModeValue('gray.700', 'white')} fontWeight="medium" px={4}>
+      <Text display="block" {...rest} color={useColorModeValue('gray.700', 'white')} px={4}>
         {children}
       </Text>
     </Link>
