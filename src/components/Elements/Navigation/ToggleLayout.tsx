@@ -6,7 +6,7 @@ export default function ToggleLayout() {
   return (
     <Stack direction={'row'} spacing={7}>
       <Button onClick={toggleColorMode}>
-        {colorMode === 'dark' ? <MoonIcon /> : <SunIcon />}
+        {colorMode !== 'dark' ? <MoonIcon /> : <SunIcon />}
       </Button>
     </Stack>
   )

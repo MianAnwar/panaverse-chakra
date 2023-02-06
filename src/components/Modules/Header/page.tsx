@@ -12,7 +12,7 @@ export default function Header(props: any) {
   return (
     <NavBarContainer {...props}>
 
-      <Logo w="100px" />
+
       <MenuLinks isOpen={isOpen} />
       <ToggleLayout />
       <MenuToggle toggle={toggle} isOpen />
