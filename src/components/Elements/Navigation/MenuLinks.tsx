@@ -16,7 +16,7 @@ export default function MenuLinks({ isOpen }: { isOpen: boolean }) {
       display={{ base: isOpen ? "block" : "none", md: "block" }}
       flexBasis={{ base: "100%", md: "auto" }}>
       <Stack
-        spacing={8}
+        spacing={{ base: 4, md: 10 }}
         align="center"
         justify={["center", "space-around", "flex-end", "flex-end"]}
         direction={["column", "row", "row", "row"]}
