@@ -27,7 +27,19 @@ export default function ImageSlider() {
 
   return (
     <>
-      <Flex py='30px'
+      <Stack >
+        <Text textAlign="center">
+          <chakra.span fontSize={['1xl', '1xl', '1xl', 'xl', '2xl']} fontWeight='thin' letterSpacing="3px" >The Future of the Web is </chakra.span>
+          <chakra.span fontSize={['1xl', '1xl', '1xl', 'xl', '2xl']} fontWeight='medium' letterSpacing="1px" as="u">Web 3.0, Metaverse, and Edge Computing.</chakra.span>
+        </Text>
+        <Text textAlign="right" fontSize={['1xl', '1xl', '1xl', '1xl', '2xl']} fontWeight='light' pr="20px">
+          Panaverse DAO is a movement to spread these technolgies globally.
+          </Text>
+      </Stack>
+
+
+
+      <Flex py='20px'
         justify={["space-between", "space-between", "space-between", "center"]}
         direction={["column-reverse", "column-reverse", "column-reverse", "row"]}>
 
@@ -50,11 +62,12 @@ export default function ImageSlider() {
           <Divider h="6" />
 
           <Stack align="center">
-            <Text fontSize={['xl', 'xl', 'xl', '2xl', '2xl']} textAlign="center" fontWeight='bold' pt="10px" letterSpacing="2px" as='samp'>Get Certified in Web 3.0 and Metaverse Development </Text>
+            <Text fontSize={['xl', 'xl', 'xl', '2xl', '2xl']} textAlign="center" fontWeight='bold' pt="10px" letterSpacing="2px" as='samp'>Certified Web 3.0 and Metaverse Development</Text>
           </Stack>
           <Divider h="10px" />
 
-          <Text fontSize={['xl', 'xl', 'xl', '2xl', '2xl']} fontWeight='medium' pt="10px" letterSpacing="1px">A Nationwide Program in Karachi, Lahore, Islamabad, and Peshawar.</Text>
+          <Text fontSize={['1xl', '1xl', '1xl', 'xl', '2xl']} fontWeight='thin' letterSpacing="2px" >Panaverse DAO is community of Web 3 and Metaverse </Text>
+          <Text fontSize={['1xl', '1xl', '1xl', 'xl', '2xl']} fontWeight='thin' letterSpacing="2px" >developers, designers, trainers, startup founders and service providers.</Text>
           <Divider h="10px" />
 
           <Flex direction="row" justify="space-evenly">
