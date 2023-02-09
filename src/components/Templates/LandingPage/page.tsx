@@ -54,7 +54,7 @@ export default function ImageSlider() {
           </Stack>
           <Divider h="10px" />
 
-          <Text fontSize={['xl', 'xl', 'xl', 'xl', '2xl']} fontWeight='medium' pt="10px" letterSpacing="2px">A Nationwide Program in Karachi, Lahore, Islamabad, and Peshawar</Text>
+          <Text fontSize={['1xl', '1xl', '1xl', 'xl', '2xl']} fontWeight='medium' pt="10px" letterSpacing="1px">A Nationwide Program in Karachi, Lahore, Islamabad, and Peshawar.</Text>
           <Divider h="10px" />
 
           <Flex direction="row" justify="space-evenly">
