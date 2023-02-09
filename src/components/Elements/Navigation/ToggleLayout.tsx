@@ -9,7 +9,7 @@ export default function ToggleLayout() {
         {colorMode !== 'dark' ? <MoonIcon /> : <SunIcon />}
       </Button>
       <Button onClick={toggleColorMode}>
-        Login
+        Portal
       </Button>
     </Stack>
   )

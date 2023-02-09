@@ -8,7 +8,7 @@ export default function NavBarContainer({ children, ...extraStyles }: { children
       wrap="wrap"
       w="100%"
       p={3}
-      pt={4}
+      pt={5}
       bg={useColorModeValue('gray.50', 'gray.900')}
       {...extraStyles}>
 

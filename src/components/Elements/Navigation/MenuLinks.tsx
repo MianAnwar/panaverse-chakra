@@ -30,7 +30,7 @@ export default function MenuLinks({ isOpen }: { isOpen: boolean }) {
           direction={["column", "row", "row", "row"]}
           pt={[4, 4, 0, 0]}
         >
-          <MenuItem to="/teams">Teams</MenuItem>
+          <MenuItem to="/admission">Admission</MenuItem>
           <MenuItem to="/locations">Locations</MenuItem>
           <MenuItem to="/benefits">Benefits</MenuItem>
           <MenuItem to="/jobs">Jobs</MenuItem>
