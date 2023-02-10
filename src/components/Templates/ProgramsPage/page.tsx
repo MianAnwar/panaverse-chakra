@@ -4,13 +4,12 @@ import Link from 'next/link';
 function ProgramCard({ courseTitle, courseDescription, imagesrc }: { courseTitle: string, courseDescription: string, imagesrc: string }) {
   return (
     <Link href="/">
-      <Card h="410px" overflow="hidden">
+      <Card h="400px" overflow="hidden">
         <CardBody>
           <Center>
             <Image
               src={imagesrc}
               borderRadius='lg'
-              h="108px"
             />
           </Center>
           <Stack mt='10px' spacing='3'>
@@ -79,24 +78,14 @@ export default function ProgramsPage() {
         textAlign="center"
         minChildWidth={['200px', '250px', '250px', '280px', '300px']}
         spacing="10px">
-        <Box>
-          <ProgramCard courseTitle={courses[0].courseTitle} courseDescription={courses[0].courseDescription} imagesrc={courses[0].imagesrc} />
-        </Box>
-        <Box>
-          <ProgramCard courseTitle={courses[1].courseTitle} courseDescription={courses[1].courseDescription} imagesrc={courses[1].imagesrc} />
-        </Box>
-        <Box>
-          <ProgramCard courseTitle={courses[2].courseTitle} courseDescription={courses[2].courseDescription} imagesrc={courses[2].imagesrc} />
-        </Box>
-        <Box>
-          <ProgramCard courseTitle={courses[3].courseTitle} courseDescription={courses[3].courseDescription} imagesrc={courses[3].imagesrc} />
-        </Box>
-        <Box>
-          <ProgramCard courseTitle={courses[4].courseTitle} courseDescription={courses[4].courseDescription} imagesrc={courses[4].imagesrc} />
-        </Box>
-        <Box>
-          <ProgramCard courseTitle={courses[5].courseTitle} courseDescription={courses[5].courseDescription} imagesrc={courses[5].imagesrc} />
-        </Box>
+
+        {
+          courses.map((course) => {
+            return <Box>
+              <ProgramCard courseTitle={course.courseTitle} courseDescription={course.courseDescription} imagesrc={course.imagesrc} />
+            </Box>
+          })
+        }
 
       </SimpleGrid>
     </>
