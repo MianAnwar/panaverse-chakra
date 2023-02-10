@@ -50,7 +50,7 @@ export default function LandingPage() {
         <Box px={[5, 5, 5, 10]}>
           <Text as='kbd'>
             <Text fontSize='2xl' fontWeight='bold' letterSpacing="1px" as="u">Getting Ready</Text>
-            <Text fontSize='lg' fontWeight='thin' letterSpacing="2px"> for the Next Generation and Future of the Internet.</Text>
+            <Text fontSize='lg' fontWeight='thin' letterSpacing="1px"> for the Next Generation and Future of the Internet.</Text>
           </Text>
 
           <TextTickerAnimation />
