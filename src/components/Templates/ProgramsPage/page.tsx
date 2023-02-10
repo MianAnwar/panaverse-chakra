@@ -57,6 +57,14 @@ const courses = [
   },
 ]
 
+function buildProgramsGrid() {
+  return courses.map((course) => {
+    return <Box>
+      <ProgramCard courseTitle={course.courseTitle} courseDescription={course.courseDescription} imagesrc={course.imagesrc} />
+    </Box>
+  })
+}
+
 export default function ProgramsPage() {
   return (
     <>
@@ -79,13 +87,7 @@ export default function ProgramsPage() {
         minChildWidth={['200px', '250px', '250px', '280px', '300px']}
         spacing="10px">
 
-        {
-          courses.map((course) => {
-            return <Box>
-              <ProgramCard courseTitle={course.courseTitle} courseDescription={course.courseDescription} imagesrc={course.imagesrc} />
-            </Box>
-          })
-        }
+
 
       </SimpleGrid>
     </>
