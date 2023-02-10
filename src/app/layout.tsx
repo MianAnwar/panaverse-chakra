@@ -1,4 +1,6 @@
 'use client';
+
+import React from 'react'
 import './globals.css'
 import ChakraWrapper from "./chakra-wrapper";
 import Header from "@/components/Modules/Header/page";

@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { Box, Image, Divider, Button, Flex, Heading, Text, Stack, chakra } from "@chakra-ui/react";
 import TextTickerAnimation from '@/components/Animation/ticker';
 import Link from 'next/link';
-import ProgramsPage from '../ProgramsPage/page';
 
 interface ImageModel {
   src: string;

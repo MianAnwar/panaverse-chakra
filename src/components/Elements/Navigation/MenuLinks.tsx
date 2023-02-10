@@ -32,10 +32,10 @@ export default function MenuLinks({ isOpen }: { isOpen: boolean }) {
           pt={[4, 4, 0, 0]}
         >
           <MenuItem to="/programs">Programs</MenuItem>
-          <MenuItem to="/locations">Locations</MenuItem>
-          <MenuItem to="/benefits">Benefits</MenuItem>
-          <MenuItem to="/blogs">Blogs</MenuItem>
-          <MenuItem to="/students">Students</MenuItem>
+          <MenuItem to="/programs">Locations</MenuItem>
+          <MenuItem to="/programs">Benefits</MenuItem>
+          <MenuItem to="/programs">Blogs</MenuItem>
+          <MenuItem to="/programs">Students</MenuItem>
         </Stack>
       </Box>
 
