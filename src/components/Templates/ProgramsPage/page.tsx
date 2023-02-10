@@ -13,7 +13,7 @@ function ProgramCard({ courseTitle, courseDescription, imagesrc }: { courseTitle
             />
           </Center>
           <Stack mt='10px' spacing='3'>
-            <Heading size='md'>{courseTitle}</Heading>
+            <Heading size='md'>{courseTitle}.</Heading>
             <Text>{courseDescription.length > 100 ? courseDescription.substring(0, 100) + '...' : courseDescription}</Text>
           </Stack>
         </CardBody>
