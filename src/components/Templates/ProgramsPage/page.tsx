@@ -74,7 +74,7 @@ export default function ProgramsPage() {
       </Stack>
 
       <SimpleGrid
-        m="10px"
+        m="11px"
         textAlign="center"
         minChildWidth={['200px', '250px', '250px', '280px', '300px']}
         spacing="10px">
