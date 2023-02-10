@@ -6,7 +6,7 @@ export default function Logo(props: any) {
     <Box {...props}>
       <Link href="/">
         <Text fontSize="lg" fontWeight="bold" color={useColorModeValue('gray.700', 'white')}>
-          Panavese
+          Panavese DAO
       </Text>
       </Link>
     </Box>
