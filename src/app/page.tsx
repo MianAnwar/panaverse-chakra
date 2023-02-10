@@ -1,15 +1,10 @@
 'use client';
-import Header from "@/components/Modules/Header/page";
-import ImageSlider from '@/components/Templates/LandingPage/page';
-
-import ChakraWrapper from "./chakra-wrapper";
+import LandingPage from '@/components/Templates/LandingPage/page';
 
 export default function Home() {
   return (
-    <ChakraWrapper>
-      <Header ></Header>
-      <ImageSlider></ImageSlider>
-
-    </ChakraWrapper>
+    <>
+      <LandingPage></LandingPage>
+    </>
   );
 }

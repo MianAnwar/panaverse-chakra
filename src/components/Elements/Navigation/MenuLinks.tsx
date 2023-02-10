@@ -1,5 +1,6 @@
-import { Box, Stack, Text, Link, useColorModeValue } from '@chakra-ui/react';
+import { Box, Stack, Text, useColorModeValue } from '@chakra-ui/react';
 import Logo from '@/components/Elements/Navigation/Logo';
+import Link from 'next/link';
 
 function MenuItem({ children, to = "/", ...rest }: { children: React.ReactNode, to: string }) {
   return (
@@ -30,10 +31,10 @@ export default function MenuLinks({ isOpen }: { isOpen: boolean }) {
           direction={["column", "row", "row", "row"]}
           pt={[4, 4, 0, 0]}
         >
-          <MenuItem to="/admission">Admission</MenuItem>
+          <MenuItem to="/programs">Programs</MenuItem>
           <MenuItem to="/locations">Locations</MenuItem>
           <MenuItem to="/benefits">Benefits</MenuItem>
-          <MenuItem to="/jobs">Jobs</MenuItem>
+          <MenuItem to="/blogs">Blogs</MenuItem>
           <MenuItem to="/students">Students</MenuItem>
         </Stack>
       </Box>
